@@ -8,18 +8,22 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Metal_Blue_Simple_Mat
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: b4028b56ff427c142882752598100299,
+    type: 3}
   m_ShaderKeywords: _METALLICSPECGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2050
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_88E5B270:
+        m_Texture: {fileID: 2800000, guid: 1401895c5caed7c4aa9e6f04bc677338, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 77583f99dea53b641804bb357092ec83, type: 3}
         m_Scale: {x: 2, y: 2}
@@ -65,6 +69,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_58714FA2: 5
+    - Vector1_7D5B84B4: 0
+    - Vector1_B9072DA3: 0.6
+    - Vector1_F6063828: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -91,6 +99,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_98ABFE83: {r: 0.3764706, g: 13.23922, b: 15.87451, a: 0}
     - _BaseColor: {r: 0.20990562, g: 0.41062784, b: 0.8396226, a: 1}
     - _Color: {r: 0.20990565, g: 0.41062787, b: 0.8396226, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
